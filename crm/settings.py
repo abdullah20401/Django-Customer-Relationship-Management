@@ -129,3 +129,6 @@ MEDIA_URL = '/images/'
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
+
+import django_heroku
+django_heroku.settings(locals())
